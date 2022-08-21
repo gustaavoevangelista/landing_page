@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/subscribe.css">
+    <title>SUBSCRIBE PAGE</title>
+</head>
+<body>
+    <form id="form" action="http://localhost:3000/subscribers" method="post">
+        <fieldset id="fieldset">
+            <legend>Subscription</legend>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" >
+            </div>
+
+            <div class="name"><label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            
+            <div class="country">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country">
+            </div>
+
+            <div class="btn_subscribe">
+                <input type="submit" id="btn_subscribe" value="Subscribe">
+            </div>
+
+            <div class="or">OR</div>
+            
+            <div class="btn_update">
+                <input type="submit" id="btn_update" value="Update Subscription">
+            </div>
+
+
+        </fieldset>
+
+        
+    </form>
+</body>
+</html>

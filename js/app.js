@@ -1,5 +1,5 @@
 const scrollUp = document.getElementById("scroll-up");
-
+//scroll screen up
 scrollUp.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
@@ -9,13 +9,13 @@ scrollUp.addEventListener("click", () => {
 });
 
 const checkbox = document.querySelector("#checkbox");
-
+//switch page themes
 checkbox.addEventListener("change", () => {
     // Toggle website theme
     document.body.classList.toggle("dark");
 });
 
-const hamburger = document.querySelector("#hamburger");
+/* const hamburger = document.getElementById("hamburger");
 const navMenu = document.querySelector("ul");
 
 function openMenu() {
@@ -30,4 +30,4 @@ navLink.forEach((n) => n.addEventListener("click", closeMenu));
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-}
+} */
