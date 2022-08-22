@@ -6,9 +6,6 @@ body{
     flex-direction: column;
     /*margin: 33%; media queries*/
     margin: 10% 33% 33% 33%;
-    
-    
-    
 }
 
 .fieldset{
@@ -45,16 +42,6 @@ input[type=submit]{
     background-color: #0652dd;
 }
 
-#btn_update{
-    background-color: #ea2027;
-}
-
-.btn_back{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 8px;
-}
 #btn_back{
-    background-color: gray;
+    background-color: #ea2027;
 }
