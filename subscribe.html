@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/subscribe.css">
-    <title>SUBSCRIBE PAGE</title>
+    <title>SUBSCRIPTION PAGE</title>
 </head>
 <body>
     <form id="form" action="http://localhost:3000/subscribers" method="post">
@@ -14,28 +14,31 @@
 
             <label for="email">Email</label>
             <div class="email"> 
-                <input type="text" id="email" name="email" >
-            </div>
-
-            <label for="name">Name</label>
-            <div class="name">
-                <input type="text" id="name" name="name">
+                <input type="text" id="email" name="email" required>
             </div>
             
-            <label for="country">Country</label>
+            <label for="name">Name</label>
+            <div class="name">
+                <input type="text" id="name" name="name" required>
+            </div>
+            
             <div class="country">
-                
-                <input type="text" id="country" name="country">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" required>
             </div>
 
             <div class="btn">
                 <input type="submit" id="btn_subscribe" value="Subscribe">
-                OR
-                <a href="index.html">
-                    <input type="submit" id="btn_back" value="Home page">
-                </a>
             </div>
+
         </fieldset>
+
     </form>
+
+    <div class="btn_back">
+        <a href="index.html">
+            <input type="submit" id="btn_back" value="Home page">
+        </a>
+    </div>
 </body>
 </html>

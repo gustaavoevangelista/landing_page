@@ -42,6 +42,12 @@ input[type=submit]{
     background-color: #0652dd;
 }
 
+.btn_back{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #btn_back{
     background-color: #ea2027;
 }
